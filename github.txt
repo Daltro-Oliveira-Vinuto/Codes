@@ -1,0 +1,15 @@
+
+Criar um repositorio no Linux:
+
+	1. Crie uma pasta com os codigos dentro ou entre na pasta com os codigos:
+	2. Command: git.init  		// Inicializa um novo repositorio
+	3. Command: git add add * // Adiciona todos os arquivos da pasta  or Command: git add file.c // Adiciona o arquivo file.c
+	4. Command: git commit -m "mensagem"  // Adiciona um nome ao commit(uma subpasta do repositorio ou algo assim... k)
+	5. Command: git remote add origin  <caminho para o seu repositorio, ex: https://gibhub.com/Daltro-Oliveira-Vinuto/Codes.git > // Estabelece conexao
+	6. Command: git push -u origin master // abre a "interface" para o usuario digitar seu usuario do github e senha para criar o repositorio e ascender
+	//os arquivos pra ele 
+
+Acessar os arquivos em um repositorio pelo Linux:
+	
+	1. Command: git clone <caminho para o seu repositorio, ex: https://gibhub.com/Daltro-Oliveira-Vinuto/Codes.git > // Estabelece conexao
+	// Cria uma pasta dentro da pasta atual com o nome do repositorio e uma copia dos arquivos armazenados nele 
