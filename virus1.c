@@ -1,4 +1,4 @@
-/* Imprime na tela caracteres aleatorios */
+/* Imprime na tela caracteres aleatorios k*/
 
 #include <stdio.h>
 #include <string.h>
